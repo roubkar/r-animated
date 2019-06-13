@@ -1,2 +1,2 @@
-# react-animatex
+# r-animated
 A simple React component for animations
