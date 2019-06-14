@@ -10,7 +10,7 @@ export interface IAnimatedProps
   inverse?: boolean;
   transitionProperty?: string
   timingFunction?: string;
-  children: (style: React.CSSProperties) => React.ReactElement;
+  children?: (style: React.CSSProperties) => React.ReactElement;
 }
 
 export function Animated(props: IAnimatedProps): React.ReactElement
